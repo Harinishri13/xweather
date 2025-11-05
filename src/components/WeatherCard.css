@@ -1,0 +1,32 @@
+.weather-card {
+  background: white;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.weather-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
+}
+
+.weather-card-icon {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.weather-card-title {
+  color: #333;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.weather-card-value {
+  color: #0984e3;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+}
