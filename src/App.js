@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 import WeatherCard from "./components/WeatherCard";
 
-const API_KEY = "YOUR_API_KEY"; // Replace with your actual API key
+const API_KEY = "2e0d50297d7a4c3a96a123608250511"; // Replace with your actual API key
 const API_URL = "https://api.weatherapi.com/v1/current.json";
 
 function App() {
